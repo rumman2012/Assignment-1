@@ -1,0 +1,246 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.main-header
+{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 300px;
+  
+}
+.main-banner
+{
+    font-size: 50px;
+}
+.main-2nd-banner
+{
+    font-size: 50px;
+    text-align: center;
+}
+.main-header-content
+{
+    position: absolute;
+    width:600px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.hero-text
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn
+{
+    text-decoration: none;
+    color:#fff;
+    background-color: rgb(231, 46, 13);
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 250px;
+    border-radius: 5px;
+     
+}
+
+/*88888*/
+.donate-amount-section
+{
+    position: relative;
+    padding-bottom: 300px;
+    
+}
+.donate-header
+{
+    text-align: center;
+    margin: 5px;
+}
+.donate-amount-section-content
+{
+    position: absolute;
+    width: 600px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.donation-amt
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+.donation-amt div
+{
+    padding: 30px 40px;
+    margin-right: 20px;
+    background-color: turquoise;
+  
+}
+#amt2
+{
+    color: #fff;
+    border: 1px solid red;
+    background-color:coral;
+}
+input[type="text"]
+{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: none;
+}
+::placeholder 
+{
+    text-align: center;
+}
+/*  */
+.category-section
+{
+    position: relative;
+    padding-bottom: 300px;
+}
+.category-section-content
+{
+    position: absolute;
+    width: 800px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.donate-category
+{
+    display: flex;
+}
+.donate-category div
+{
+    margin-right: 10px;
+    padding: 20px 40px;
+    background-color: cadetblue;
+    
+}
+#last-category
+{
+    background-color: lightsalmon;
+}
+.how-to-contribute1
+{
+    position: relative;
+    padding-bottom: 500px;
+}
+.contribute-section-content
+{
+    position: absolute;
+    width:800px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.half-width
+{
+    width:50%;
+    margin-right: 20px;
+    
+}
+.half-width img 
+{
+    width:100%;
+}
+.btn-contribute
+{
+text-decoration: none;
+color:#fff;
+background-color: rgb(231, 46, 13);
+padding: 10px;
+margin-top: 10px;
+display: inline-block;
+}
+.how-to-contribute2
+{
+    position: relative;
+    padding-bottom: 200px;
+}
+.updates
+{
+    position: relative;
+    padding-bottom: 500px;
+}
+.update-header
+{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.update-content
+{
+    position: absolute;
+    width:600px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.update-box
+{
+    background-color: lightsalmon;
+    padding: 50px 30px;
+    text-align: center;
+}
+.btn-subscribe
+{
+    background-color: rgb(236, 41, 6);
+    padding: 10px 30px;
+    color:#fff;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+input[type="email"]
+{
+    outline: none;
+    border: none;
+    width:200px;
+    height: 34px;
+}
+footer
+{
+    position: relative;
+    margin-bottom:70px;
+}
+.footer-content
+{
+    position: absolute;
+    width:500px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color:darkgoldenrod;
+    padding: 20px 20px;
+    
+    
+}
+.footer-content h1
+{
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+.footer-content p
+{
+    margin-top: 10px;
+    text-align: center;
+    color: darkgray;
+    font-size: 10px;
+}
